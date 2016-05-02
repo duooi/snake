@@ -1,0 +1,49 @@
+body{
+	font-family: "微软雅黑";
+	color:#999;
+	text-align:center;
+	position: relative;
+}
+
+h3{
+	margin-top:100px;
+	font-size:17px;
+}
+
+#container{
+	display: block;
+	margin:0 auto;
+}
+
+button{
+	position: absolute;
+	right:440px;
+	padding:10px 30px;
+	margin-bottom:30px;
+	background-color:#ccc;
+	border:1px solid #fff;
+	color:#fff;
+	font-size:14px;
+	font-family: "微软雅黑";
+	outline: none;
+	cursor:pointer;
+	border-radius: 5px;
+}
+
+#start-btn{
+	top:200px;
+}
+
+#continue-btn{
+	top:270px;
+}
+
+#stop-btn{
+	top:340px;
+}
+
+button:hover{
+	background-color:#eee;
+	border:1px solid #ccc;
+	color:#ccc;
+}
